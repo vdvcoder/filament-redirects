@@ -1,0 +1,44 @@
+{
+    "name": "jkharley/filament-redirects",
+    "description": "A package to add a redirects resource to a filament application",
+    "require": {
+        "php": "^8.0",
+        "filament/filament": "^2.10"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JamesHarley\\FilamentRedirects\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "James Harley",
+            "email": "hello@jamesharley.dev"
+        }
+    ],
+    "homepage": "https://jamesharley.dev",
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JamesHarley\\FilamentRedirects\\FilamentRedirectsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "fix": [
+            "vendor/bin/php-cs-fixer fix"
+        ],
+        "dry-fix": [
+            "vendor/bin/php-cs-fixer --using-cache=no --diff --dry-run fix"
+        ]
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
