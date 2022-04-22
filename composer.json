@@ -1,6 +1,6 @@
 {
     "name": "jkharley/filament-redirects",
-    "description": "A package to add a redirects resource to a filament application",
+    "description": "A Filament resource to create and maintain page redirects for your website.",
     "require": {
         "php": "^8.0",
         "filament/filament": "^2.10"
