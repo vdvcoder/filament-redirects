@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jkharley/filament-redirects.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
 [![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/jkharley/filament-redirects)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+A [Filament](https://filamentphp.com/) resource to create and maintain page redirects for your website.
 
 ## Installation
 
