@@ -1,7 +1,7 @@
 # Create and Control Page Redirects through Filament 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jkharley/filament-redirects.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/jkharley/filament-redirects)
+[![Total Downloads](https://img.shields.io/packagist/dt/jkharley/filament-redirects.svg?style=flat-square)](https://packagist.org/packages/jkharley/filament-redirects)
 
 A [Filament](https://filamentphp.com/) resource to create and maintain page redirects for your website.
 
