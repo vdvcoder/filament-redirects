@@ -34,6 +34,13 @@ You can create new redirects from within the new `redirects` resource and add a 
 
 ![Screenshot 2022-04-22 at 11 52 53](https://user-images.githubusercontent.com/27085725/164701219-57b173c7-04e3-4ef4-8a47-ea992d6c718b.png)
 
+If you'd like to redirect from unregistered routes you can add a route fallback to the **bottom** of your routes in the `web.php` file. Here's an example:
+```
+Route::fallback(function () {
+    return abort(404);
+});
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
